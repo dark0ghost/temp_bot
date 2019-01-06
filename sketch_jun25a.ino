@@ -20,9 +20,8 @@ String check;
 while (check != "temp"){
   check = Serial.read();
   }
-if (check == "temp"){
-    temp();
-    }
+temp();
+    
 
 
 }
