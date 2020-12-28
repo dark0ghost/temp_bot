@@ -19,5 +19,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Run a one-line script
-        uses: dark0ghost/arduino_action@v0.0.3
+      - name: Build
+        uses: dark0ghost/arduino_action@v0.0.4
