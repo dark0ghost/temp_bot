@@ -20,4 +20,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
-        uses: dark0ghost/arduino_action@v0.0.2
+        uses: dark0ghost/arduino_action@v0.0.3
